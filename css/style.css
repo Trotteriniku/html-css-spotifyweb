@@ -1,0 +1,134 @@
+:root {
+	--color-dark-color: #141922;
+	--color-dark-grey: #282828;
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-grey: #717171;
+	--color-light-grey: #c1c1c1;
+	--color-highlight: #adff2f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: var(--color-dark-color);
+font-family: 'Montserrat', sans-serif;
+color: var(--color-white);
+}
+/* UTILITY */
+.debug{
+    border: 5px solid white;
+}
+
+.flexer{
+    display: flex;
+
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* container */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+
+}
+main{
+    width: 100%;
+    height: calc(100% - 90px);
+}
+#side-bar{
+    width: 250px;
+    background-color:var(--color-black);
+}
+#main-content{
+    width:calc(100% - 250px);
+    /* background-color: blue; */
+    overflow-y: auto;
+    padding: 90px 10px 0px 10px;
+}
+/* container */
+
+/* call-to-action */
+#call-to-action{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: calc(100% - 250px);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#call-to-action a{
+    border: 1px solid var(--color-white);
+    border-radius: 20px;   
+    color: var(--color-white);
+    padding:8px 25px;
+    transition: all 0.1s;
+}
+#call-to-action a:hover{
+    transform: scale(1.05);
+}
+/* call-to-action */
+
+/* playbar */
+#playbar{
+    width: 100%;
+    height: 90px;
+    background-color: var(--color-dark-grey);
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+}
+/* playbar */
+
+/* text */
+.text-center{
+    text-align: center;
+}
+.titles-color{
+    color: var(--color-white);
+}
+.m-font{
+    font-size: 0.6em;
+}
+.s-font{
+    font-size: 0.5em;
+}
+
+
+/* padding */
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
