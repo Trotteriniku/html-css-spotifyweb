@@ -40,6 +40,9 @@ color: var(--color-grey);
 .flex-center{
     justify-content: center;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 ul{
     list-style: none;
 }
@@ -114,10 +117,10 @@ main{
     color: var(--color-white);
 }
 .m-font{
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 .s-font{
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 
@@ -139,13 +142,52 @@ main{
     padding-bottom: 20px;
 }
 
-
+/* margin */
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-section{
+    margin-bottom: 40px;
+}
 /* main-content */
+/* top-list */
 #top-list li{
     font-weight: 700;
     transition: all 0.01s;
 }
 #top-list li:hover{
     color: var(--color-white);
+}
+.green-underline{
+    margin-left: 25px;
+    width: 30%;
+    border-color: var(--color-highlight);
+}
+
+/* Recently*/
+.album{
+    gap: 15px;
+}
+.cover{
+     width: calc(100% / 6 - 15px);
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-content div{
+    font-weight: 700;
+}
+
+/* music for you */
+#most-popular-artists img{
+    border-radius: 50%;
 }
 /* main-content */

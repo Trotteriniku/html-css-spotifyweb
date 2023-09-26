@@ -11,17 +11,24 @@
 </head>
 <body>
    <div class="wrapper">
-
+    <!-- call-to-action -->
         <div id="call-to-action" class="py-20 px-20 flexer align-center flex-end">
             <a href="#" class="m-font">EFFETTUA L'UPGRADE</a>
         </div>
 
-        <main class="flexer">           
+        <main class="flexer">  
+            <!-- side-bar          -->
             <nav id="side-bar">1</nav>
+
+            <!-- main-content -->
             <section id="main-content">
-                <nav id="top-list">
-                    <ul class="flexer flex-center m-font">
-                        <li class="px-10">IN EVIDENZA</li>
+
+                <!-- top-list -->
+                <nav id="top-list" class="mb-section ">
+                    <ul class="flexer flex-center m-font wrap">
+                        <li class="px-10">IN EVIDENZA
+                            <hr class="green-underline">
+                        </li>
                         <li class="px-10">PODCAST</li>
                         <li class="px-10">CLASSIFICHE</li>
                         <li class="px-10">GENERI E MOOD</li>
@@ -29,15 +36,117 @@
                         <li class="px-10">SCOPRI</li>
                     </ul>
                 </nav>
-                <section id="Recently">
-                    <h2>Recently played</h2>
-                    <div class="album">
+
+                <!-- Recently played -->
+                <section id="Recently" class="mb-section">
+                    <h2 class="mb-30 titles-color">Recently played</h2>
+                    <div class="album flexer">
                         <div class="cover">
-                            <div>card image relative</div>
-                            <div> card content</div>
+                            <div class="card mb-10">
+                                <img src="img/metal_lifting.jpg" alt="">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Heavy Metal</h4>
+                                <div class="m-font">Subtitle</div>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/stranger.jpeg" alt="stranger">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Stranger Things, Vol.1(a Netflix Original Series Soundtrack) </h4>
+                                <div class="m-font">Kyle Dixon & Michael Stein</div>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/aquietplace.jpeg" alt="a quietplace">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">A quite place</h4>
+                                <div class="m-font">Subtitle</div>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/split.jpeg" alt="split">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Split</h4>
+                                <div class="m-font">Subtitle</div>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/cure.jpeg" alt="cure">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">A cure for wellness</h4>
+                                <div class="m-font">Subtitle</div>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/sinister.jpeg" alt="sinister">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Sinister</h4>
+                                <div class="m-font">Subtitle</div>
+                            </div>  
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <!-- music for you -->
+                <section id="music-for-you" class="mb-section">
+                    <h2 class="mb-10 titles-color">Creato per Jhon Doe</h2>
+                    <div class="mb-30 m-font">Più ascolti,più accurati saranno i suggerimenti</div>
+                    <div class="album flexer">
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/radar.jpeg" alt="Radar">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10"> Release Radar</h4>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/mixdaily.jpeg" alt="Daily Mix">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Daily Mix 1 </h4>
+                            </div>  
                         </div>
                     </div>
                 </section>
+                  
+                <!-- most popular artists -->
+                <section id="most-popular-artists" class="mb-section">
+                    <h2 class="mb-10 titles-color">Artisti più popolari</h2>
+                    <div class="mb-30 m-font">Più ascolti,più accurati saranno i suggerimenti</div>
+                    <div class="album flexer">
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/youg.jpeg" alt="Youg">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Lana del Rey</h4>
+                            </div>  
+                        </div>
+                        <div class="cover">
+                            <div class="card mb-10">
+                                <img src="img/einaudi.jpeg" alt="Einaudi">
+                            </div>
+                            <div class="card-content text-center">
+                                <h4 class="titles-color mb-10">Ludovico Einaudi </h4>
+                            </div>  
+                        </div>
+                    </div>
+                </section>
+
             </section>
         </main>
         <div id="playbar"></div>
