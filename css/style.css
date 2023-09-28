@@ -430,6 +430,7 @@ main{
         width: 280px%;
     }
     .play-right input{
-        display: none;
+            width: 100px;
+        /* display: none; */
     }
 }
