@@ -19,11 +19,11 @@
 
         <main class="flexer">  
             <!-- side-bar -->
-            <nav id="side-bar" class="px-20 py-20">
+            <nav id="side-bar">
                 
 
 
-                    <div class="top-bar">
+                    <div class="top-bar py-20 px-20">
                             
                         <img class="mb-30" src="img/logo.svg" alt="logo">
                             
@@ -34,7 +34,7 @@
                                 </ul>
                             
 
-                        <div class="playlist mb-30">
+                        <div class="playlist">
                             <h4 class="titles-color mb-10">PLAYLIST</h4>
                             <div class="flexer align-center mb-20">
                                 <div class="square">
@@ -50,19 +50,22 @@
                                 <li class="m-font mb-15"><a href=""></a>Nome Playlist</li>
                                 <li class="m-font mb-15"><a href=""></a>Nome Playlist</li>
                                 <li class="m-font mb-15"><a href=""></a>Nome Playlist</li>
-                                <li class="m-font mb-section"><a href=""></a>Nome Playlist</li>
+                                <li class="m-font mb-15"><a href=""></a>Nome Playlist</li>
                             </ul>
                         </div> 
                     
                     </div>
                     
-                    <div class="playlist-footer">
+                    <div class="playlist-footer py-20">
                         <div class="mb-10">
                              <a  class="m-font" href="#"><i class="fa-regular fa-circle-down"></i> Installa app</a>
                         </div>
-                        <hr class="mb-10">
-                        <div class="profile-pic">
-                            <img src="img/profile.svg" alt="profile">
+                        <hr>
+                        <div class="profile-pic flexer">
+                            <i class="fa-regular fa-user titles-color"></i>
+                            <div class="m-font titles-color">
+                                Jhon Doe
+                            </div>
                             
                         </div>
                     </div>
@@ -92,10 +95,11 @@
                 <!-- Recently played -->
                 <section id="Recently" class="mb-section">
                     <h2 class="mb-30 titles-color">Recently played</h2>
-                    <div class="album flexer">
+                    <div class="album flexer wrap">
                         <div class="cover">
                             <div class="card mb-10">
                                 <img src="img/metal_lifting.jpg" alt="">
+                                
                             </div>
                             <div class="card-content text-center">
                                 <h4 class="titles-color mb-10">Heavy Metal</h4>
@@ -201,7 +205,49 @@
 
             </section>
         </main>
-        <div id="playbar"></div>
+        <div id="playbar" class="flexer justify-between">
+            <div class="play-left flexer align-center ">
+                <img class="square" src="img/sinister.jpeg" alt="">
+                <div class="mr-10">
+                    <span class="m-font titles-color">Sinister</span>
+                    <span class="s-font">Brano Nome</span>
+                </div>
+              
+                    <ul class="flex-center">
+                        <li class="mr-10"><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa-regular fa-folder"></i></a></li>
+                    </ul>
+                    
+      
+                
+            </div>
+            <div class="play-center">
+                <ul class="flexer flex-center align-center">
+                    <li><i class="fa-solid fa-shuffle"></i></li>
+                    <li><i class="fa-solid fa-backward-step"></i></li>
+                    <li><i class="fa-regular fa-circle-play"></i></li>
+                    <li><i class="fa-solid fa-forward-step"></i></li>
+                    <li><i class="fa-solid fa-rotate-right"></i></li>
+                </ul>
+
+                <div class="slidecontainer">
+                    <span class="s-font">0.25</span><input type="range" min="1" max="10" value="2" class="slider" ><span class="s-font">4.35</span>
+                </div>
+            </div>
+
+            <div class="play-right flexer align-center">
+            
+                     <ul class="flexer">
+                        <li><a href=""><i class="fa-solid fa-list"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-desktop"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-volume-high"></i></a></li>
+                    </ul>
+                
+                    <div class="slidecontainer  flexer align-center">
+                        <input type="range" min="1" max="10" value="2" class="slider" >
+                    </div>
+            </div>
+        </div>
    </div>  
 </body>
 </html>
